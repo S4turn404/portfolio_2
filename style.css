@@ -7,7 +7,7 @@ body {
     padding-bottom: 20px;
     font-size: 20px;
     background-color: linear-gradient(to right, rgb(227, 228, 255), rgb(209, 211, 249), rgb(161, 166, 255));
-    
+
 }
 
 .jumbotron {
@@ -16,4 +16,19 @@ body {
 
 .navbar .nav-link:hover {
     color: #dbd7ff;
+}
+
+img {
+    width: 50px;
+}
+
+
+.container {
+    padding: 40px 20px;
+    width: 400px;
+    background: linear-gradient(to right, rgb(227, 228, 255), rgb(209, 211, 249), rgb(161, 166, 255));
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    height: 600px;
 }
