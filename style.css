@@ -2,13 +2,16 @@ body {
     font-family: "Space Grotesk", sans-serif;
 }
 
-.navbar {
+#n1 {
+    background: ghostwhite;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 20px;
-    background-color: linear-gradient(to right, rgb(227, 228, 255), rgb(209, 211, 249), rgb(161, 166, 255));
-
 }
+
+
+
+
 
 .jumbotron {
     background-color: rgb(223, 227, 250);
@@ -32,3 +35,8 @@ img {
     margin-left: 20px;
     height: 600px;
 }
+
+
+/* padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px; */
