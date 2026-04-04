@@ -49,3 +49,39 @@ img {
   color: white;
   height: 300px;
 }
+
+.card .col-md-4 {
+  height: 100%;      
+}
+
+.card img {
+width: 100%;
+height: auto;
+max-height: 300px; 
+object-fit: cover;    
+border-radius: 5px;   }
+
+.card-text {
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.card {
+  margin-top: 30px;
+  margin-left: 200px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 300px;
+  transition: all 0.3s ease;
+}
+
+
+
+
+
+
+
+.card:hover {
+  transform: translateY(-8px) translateX(-5px); 
+  background-color: rgb(224, 226, 255) !important; 
+  box-shadow: 0 10px 20px rgba(206, 132, 255, 0.76); 
+}
