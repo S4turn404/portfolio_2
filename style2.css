@@ -39,7 +39,7 @@ img {
 
 .awardhead {
   height: 100vh; 
-  background-image: url('silver.jpg');
+  background-image: url('purplesilver.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -47,4 +47,5 @@ img {
   align-items: center;     
   text-align: center;
   color: white;
+  height: 300px;
 }
