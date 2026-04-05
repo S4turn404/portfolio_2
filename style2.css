@@ -78,10 +78,22 @@ border-radius: 5px;   }
 
 
 
+footer {
+    background-color:#dbd7ff;
+    height: 200px;
+
+}
 
 
 .card:hover {
   transform: translateY(-8px) translateX(-5px); 
   background-color: rgb(224, 226, 255) !important; 
   box-shadow: 0 10px 20px rgba(206, 132, 255, 0.76); 
+}
+
+.copyright {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 20px;
+    background-color:#918bc5 ;
+    font-size: 15px;;
 }

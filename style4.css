@@ -34,9 +34,19 @@ img {
     height: 300px;
 }
 
-.resume1 {
-    width: 200px;
+#resume1 {
+    width: 948px;
+    border: 10px solid;
+    border-color: #dbd7ff;
 }
-.resume2 {
-    width: 200px;
+#resume2 {
+    width: 949px;
+    border: 10px solid;
+    border-color: #dbd7ff;
+}
+
+.res {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
 }
