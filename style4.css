@@ -1,0 +1,42 @@
+body {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+#n1 {
+    background: ghostwhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+
+
+.navbar .nav-link:hover {
+    color: #dbd7ff;
+}
+
+img {
+    width: 50px;
+}
+
+
+
+
+.bannertext {
+    background-image: url('purplesilver.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 300px;
+}
+
+.resume1 {
+    width: 200px;
+}
+.resume2 {
+    width: 200px;
+}
