@@ -1,0 +1,74 @@
+body {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+#n1 {
+    background: ghostwhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+
+
+
+
+.jumbotron {
+    background-color: rgb(223, 227, 250);
+}
+
+.navbar .nav-link:hover {
+    color: #dbd7ff;
+}
+
+#saturn {
+    width: 50px;
+}
+
+.bannertext {
+  height: 100vh; 
+  background-image: url('purplesilver.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;
+  color: white;
+  height: 300px;
+}
+
+.school {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 58px;
+    background-color: rgb(161, 166, 255);
+    width: 635px;
+    margin-left: 30px;
+}
+
+.ecr {
+    margin-top: 80px;
+    color: #ffffff;
+}
+
+.content-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 200px;
+    margin-left: 20px;
+}
+
+.containerE {
+    width: 600px;
+    height: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background: linear-gradient(to right, rgb(227, 228, 255), rgb(209, 211, 249), rgb(178, 182, 255));
+    color: #958aff;
+    padding: 20px;
+    margin-left: 300px;
+}
+
+#elco {
+    height: 300px;
+}
