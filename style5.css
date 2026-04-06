@@ -44,6 +44,8 @@ body {
     background-color: rgb(161, 166, 255);
     width: 635px;
     margin-left: 30px;
+    border-radius: 15px;
+
 }
 
 .ecr {
@@ -67,8 +69,97 @@ body {
     color: #958aff;
     padding: 20px;
     margin-left: 300px;
+    border-radius: 15px;
+    border: 6px solid rgb(209, 211, 249);
+
 }
 
 #elco {
     height: 300px;
+    border-radius: 15px;
+    border: 6px solid rgb(209, 211, 249);
+
+}
+
+#ecrchs {
+    height: 230px;
+    margin-left: 927px;
+    margin-top: -280px;
+}
+
+#ecrchs:hover {
+  transform: translateY(-8px) translateX(-5px); 
+  background-color: rgb(255, 255, 255) !important; 
+  box-shadow: 0 10px 20px rgba(255, 241, 113, 0.76); 
+  border-radius: 15px;
+}
+
+
+.schedule {
+    display: flex;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 32px;
+    
+}
+
+
+.group1 {
+    height: 410px;
+    background-color: #eceaff;
+}
+
+.group2 {
+    margin-top: 0px;
+        height: 410px;
+    background-color: #eceaff;
+}
+
+
+#smc {
+    height: 115px;
+    margin-left: 927px;
+    margin-top: -280px;
+}
+
+
+#ecc {
+    height: 115px;
+    margin-left: 1000px;
+    margin-top: -150px;
+}
+
+
+#ecrchs:hover {
+  transform: translateY(-8px) translateX(-5px); 
+  background-color: rgb(255, 255, 255) !important; 
+  box-shadow: 0 10px 20px rgba(255, 241, 113, 0.76); 
+  border-radius: 15px;
+}
+
+#ecc:hover {
+  transform: translateY(-8px) translateX(-5px); 
+  background-color: rgb(255, 255, 255) !important; 
+  box-shadow: 0 10px 20px rgb(151, 166, 255); 
+  border-radius: 15px;
+}
+
+
+#smc:hover {
+  transform: translateY(-8px) translateX(-5px); 
+  background-color: rgb(255, 255, 255) !important; 
+  box-shadow: 0 10px 20px rgb(168, 242, 255); 
+  border-radius: 15px;
+}
+
+
+#planets {
+    height: 125px;
+    overflow: hidden;
+    
+}
+
+#planets img {
+    height: 200px;
+    display: block;
 }

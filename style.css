@@ -1,17 +1,14 @@
 body {
     font-family: "Space Grotesk", sans-serif;
+    background-color: #dbd7ff;
+    margin: 0;
 }
 
 #n1 {
-    background: ghostwhite;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    background: rgb(217, 217, 255);
+    padding: 20px 0;
     font-size: 20px;
 }
-
-
-
-
 
 .jumbotron {
     background-color: rgb(223, 227, 250);
@@ -25,15 +22,30 @@ img {
     width: 50px;
 }
 
-
-.container {
+.container1 {
     padding: 40px 20px;
     width: 400px;
     background: linear-gradient(to right, rgb(227, 228, 255), rgb(209, 211, 249), rgb(161, 166, 255));
     border-radius: 5px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    height: 600px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.main-section {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
 
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.card-img-top {
+    height: 250px;
+}
